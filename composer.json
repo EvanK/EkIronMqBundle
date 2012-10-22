@@ -1,0 +1,29 @@
+{
+    "name":         "codememe/ironmq-bundle",
+    "type":         "symfony-bundle",
+    "description":  "Symfony2 bundle wrapping IronMQ PHP bindings",
+    "keywords":     ["ironio","ironmq","message","queue"],
+    "homepage":     "https://github.com/CodeMeme/CodeMemeIronMqBundle",
+    "license":      "MIT",
+
+    "authors": [
+        {
+            "name": "Evan Kaufman",
+            "email": "evan@digitalflophouse.com"
+        }
+    ],
+
+    "require": {
+        "php":                      ">=5.3.2",
+        "symfony/framework-bundle": ">=2.0.0",
+        "iron-io/iron_mq":          "1.1.*"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "CodeMeme\\IronMqBundle": ""
+        }
+    },
+
+    "target-dir": "CodeMeme/IronMqBundle"
+}

@@ -1,0 +1,4 @@
+code_meme_iron_mq:
+    enabled: false
+    token: "abc123"
+    project_id: "xyz987"
