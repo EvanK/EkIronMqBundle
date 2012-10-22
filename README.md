@@ -1,4 +1,4 @@
-CodeMeme\IronMqBundle
+CodeMeme\IronMqBundle [![Build Status](https://secure.travis-ci.org/CodeMeme/CodeMemeIronMqBundle.png)](http://travis-ci.org/CodeMeme/CodeMemeIronMqBundle)
 =====================
 
 This bundle is a thin wrapper around the official [IronMQ PHP bindings][1].
