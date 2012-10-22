@@ -19,6 +19,10 @@
         "iron-io/iron_mq":          "1.1.*"
     },
 
+    "require-dev": {
+        "symfony/yaml": ">=2.0.0"
+    },
+
     "autoload": {
         "psr-0": {
             "CodeMeme\\IronMqBundle": ""
