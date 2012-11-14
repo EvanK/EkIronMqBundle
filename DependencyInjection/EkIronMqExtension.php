@@ -1,12 +1,12 @@
 <?php
 
-namespace CodeMeme\IronMqBundle\DependencyInjection;
+namespace Ek\IronMqBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
-class CodeMemeIronMqExtension extends Extension
+class EkIronMqExtension extends Extension
 {
     /**
      * {@inheritDoc}
@@ -37,7 +37,7 @@ class CodeMemeIronMqExtension extends Extension
                 }
             }
 
-            $container->setDefinition('code_meme_iron_mq.messagequeue', $definition);
+            $container->setDefinition('ek_iron_mq.messagequeue', $definition);
         }
     }
 }

@@ -1,9 +1,9 @@
 {
-    "name":         "codememe/ironmq-bundle",
+    "name":         "evank/ironmq-bundle",
     "type":         "symfony-bundle",
     "description":  "Symfony2 bundle wrapping IronMQ PHP bindings",
     "keywords":     ["ironio","ironmq","message","queue"],
-    "homepage":     "https://github.com/EvanK/CodeMemeIronMqBundle",
+    "homepage":     "https://github.com/EvanK/EkIronMqBundle",
     "license":      "MIT",
 
     "authors": [
@@ -25,9 +25,9 @@
 
     "autoload": {
         "psr-0": {
-            "CodeMeme\\IronMqBundle": ""
+            "Ek\\IronMqBundle": ""
         }
     },
 
-    "target-dir": "CodeMeme/IronMqBundle"
+    "target-dir": "Ek/IronMqBundle"
 }

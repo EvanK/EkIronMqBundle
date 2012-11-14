@@ -1,4 +1,4 @@
-CodeMeme\IronMqBundle
+Ek\IronMqBundle
 =====================
 
 About
@@ -19,7 +19,7 @@ Add a dependency to your `composer.json` file:
         // ...
         require: {
             // ...
-            "codememe/ironmq-bundle": "dev-master"
+            "evank/ironmq-bundle": "dev-master"
         }
     }
 
@@ -39,7 +39,7 @@ Update your ``AppKernel.php`` to register the bundle:
     // in AppKernel::registerBundles()
     $bundles = array(
         // ...
-        new CodeMeme\IronMqBundle\CodeMemeIronMqBundle(),
+        new Ek\IronMqBundle\EkIronMqBundle(),
         // ...
     );
 
@@ -54,7 +54,7 @@ uncommented below:
 
     # app/config/config.yml
 
-    code_meme_iron_mq:
+    ek_iron_mq:
         token: "abc123def456"
         project_id: "zyx987wvu654"
     #    api:
@@ -78,7 +78,7 @@ directly from Symfony's service container:
 
     <?php
 
-    $ironmq = $container->get('code_meme_iron_mq.messagequeue');
+    $ironmq = $container->get('ek_iron_mq.messagequeue');
     $ironmq->postMessage('queue_name', 'some message!');
 
 License

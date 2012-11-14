@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeMeme\IronMqBundle\DependencyInjection;
+namespace Ek\IronMqBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -13,7 +13,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('code_meme_iron_mq')
+        $rootNode = $treeBuilder->root('ek_iron_mq')
             ->children()
                 ->scalarNode('token')->cannotBeEmpty()->end()
                 ->scalarNode('project_id')->cannotBeEmpty()->end()

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit bootstrap= "Tests/bootstrap.php">
     <testsuites>
-        <testsuite name="CodeMemeIronMqBundle Test Suite">
+        <testsuite name="EkIronMqBundle Test Suite">
             <directory>Tests</directory>
         </testsuite>
     </testsuites>
