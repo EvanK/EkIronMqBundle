@@ -3,7 +3,7 @@
     "type":         "symfony-bundle",
     "description":  "Symfony2 bundle wrapping IronMQ PHP bindings",
     "keywords":     ["ironio","ironmq","message","queue"],
-    "homepage":     "https://github.com/CodeMeme/CodeMemeIronMqBundle",
+    "homepage":     "https://github.com/EvanK/CodeMemeIronMqBundle",
     "license":      "MIT",
 
     "authors": [
