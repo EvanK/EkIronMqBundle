@@ -16,7 +16,7 @@ class CodeMemeIronMqExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        if ($config['enabled']) {
+        if (isset($config['token'], $config['project_id'])) {
             // Required constructor args
             $options = array(
                 'token'      => $config['token'],

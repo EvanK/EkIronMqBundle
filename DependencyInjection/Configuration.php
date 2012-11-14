@@ -15,10 +15,8 @@ class Configuration implements ConfigurationInterface
         $treeBuilder = new TreeBuilder();
         $rootNode = $treeBuilder->root('code_meme_iron_mq')
             ->children()
-                ->booleanNode('enabled')->isRequired()->end()
-
-                ->scalarNode('token')->isRequired()->cannotBeEmpty()->end()
-                ->scalarNode('project_id')->isRequired()->cannotBeEmpty()->end()
+                ->scalarNode('token')->cannotBeEmpty()->end()
+                ->scalarNode('project_id')->cannotBeEmpty()->end()
 
                 ->arrayNode('api')
                     ->children()

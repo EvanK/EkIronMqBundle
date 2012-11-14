@@ -46,16 +46,15 @@ Update your ``AppKernel.php`` to register the bundle:
 Configuration
 -------------
 
-Following are the supported configuration params, all of which aside from
-``enabled`` are passed through to the underlying `IronMQ PHP bindings`_.
-Required parameters are uncommented below:
+Following are the supported configuration params, all of which are passed
+through to the underlying `IronMQ PHP bindings`_. Required parameters are
+uncommented below:
 
 .. code-block :: yml
 
     # app/config/config.yml
 
     code_meme_iron_mq:
-        enabled: true # if set to false, service will not be available
         token: "abc123def456"
         project_id: "zyx987wvu654"
     #    api:
